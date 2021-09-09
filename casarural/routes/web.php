@@ -20,3 +20,15 @@ Route::get('/', function () {
 Route::get('/contact', function () {
     return view('pages.contact');
 });
+
+Route::get('/features', function () {
+    return view('pages.features');
+});
+
+Route::get('/pricing', function () {
+    return view('pages.pricing');
+});
+
+Route::get('/faqs', function () {
+    return view('pages.faqs');
+});
